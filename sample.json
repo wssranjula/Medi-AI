@@ -1,0 +1,41 @@
+{  
+  "PatientName": "Jane Doe",  
+  "DoctorName": "Dr. Smith",  
+  "ClinicName": "[Insert Clinic Name]",  
+  "Date": "[Insert Date]",  
+  "Time": "[Insert Time]",  
+  "Duration": "Approximately 20 minutes",  
+  "Symptoms": {  
+    "Fatigue": "Feeling very fatigued for the past two weeks",  
+    "Headaches": "Persistent headaches",  
+    "Dizziness": "Occasional dizziness",  
+    "VisionChanges": "Vision gets a bit blurry, sensitivity to harsh light",  
+    "WeightLoss": "Lost a few pounds without trying",  
+    "AppetiteChanges": "Decreased appetite, occasional nausea",  
+    "SleepPatterns": "Trouble falling asleep, wakes up in the middle of the night",  
+    "MusclePain": "Muscles feel sore",  
+    "JointPain": "Achy joints, especially in hands and knees"  
+  },  
+  "MedicalHistory": {  
+    "ChronicConditions": "Type 2 diabetes",  
+    "MedicationControl": "Well-controlled with medication"  
+  },  
+  "CurrentMedications": {  
+    "Diabetes": "Metformin",  
+    "Supplements": "Daily multivitamin"  
+  },  
+  "Allergies": "No known allergies",  
+  "RecentTravel": "No",  
+  "ContactWithSickIndividuals": "No",  
+  "StressLevels": "High stress at work",  
+  "PlannedTests": [  
+    "Potential infections",  
+    "Blood count",  
+    "Thyroid function",  
+    "Mental health evaluation"  
+  ],  
+  "PatientInstructions": {  
+    "Rest": "Try to get some rest",  
+    "Diet": "Focus on a balanced diet"  
+  }  
+}  
