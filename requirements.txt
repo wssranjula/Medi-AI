@@ -4,3 +4,4 @@ langchain
 streamlit
 python-dotenv
 langsmith
+langchain-openai
