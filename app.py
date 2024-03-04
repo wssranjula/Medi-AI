@@ -14,11 +14,6 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 def get_response(transcript):
 
-    model = AzureChatOpenAI(deployment_name="GPT-4-Verdentra-Turbo",
-                        model_name="GPT-4-Verdentra-Turbo",
-                        azure_endpoint = AZURE_OPENAI_ENDPOINT,
-                        api_key=OPENAI_API_KEY,
-                        api_version= "2023-07-01-preview")
 
     template = """You are expert information extractor. your goal is to extract information from below  {transcirpt} /n
                 and give it in the following format
@@ -72,7 +67,7 @@ def get_response(transcript):
                                             extract information in this {format}
                                             If the information is not available, please leave the field empty.Provide the final output in JSON format.
                                             """)
-    # model = ChatOpenAI(model="gpt-3.5-turbo")
+    model = ChatOpenAI(amodel="gpt-3.5-turbo")
 
     output_parser = StrOutputParser()
 
