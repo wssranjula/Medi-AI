@@ -1,16 +1,16 @@
 Call Transcript Between Dr. Johnson and Client Michael Green
 
-Date: [Insert Date]
-Time: [Insert Time]
+Date: [10/01/2024]
+Time: [15.15]
 Duration: Approximately 35 minutes
 
-Dr. Johnson: Good morning, and thank you for reaching out to [Insert Clinic Name]. Dr. Johnson speaking. May I have your full name for our records?
+Dr. Johnson: Good morning, and thank you for reaching out to Medi Care. Dr. Johnson speaking. May I have your full name for our records?
 
 Michael Green: Good morning, Dr. Johnson. My full name is Michael Green.
 
 Dr. Johnson: Hello, Michael. It's a pleasure to connect with you today. For security purposes, could you provide me with your date of birth?
 
-Michael Green: Certainly, it's [Insert Date of Birth].
+Michael Green: Certainly, it's 1984.
 
 Dr. Johnson: Thank you, Michael. How can I assist you today? How have you been feeling?
 

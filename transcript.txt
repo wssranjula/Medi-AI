@@ -3,13 +3,13 @@ Date: [Insert Date]
 Time: [Insert Time]
 Duration: Approximately 25 minutes
 
-Dr. Smith: Good afternoon, thank you for calling [Insert Clinic Name]. This is Dr. Smith speaking. May I have your full name, please?
+Dr. Smith: Good afternoon, thank you for calling Durdans. This is Dr. Smith speaking. May I have your full name, please?
 
 Jane Doe: Hi, Dr. Smith. My name is Jane Doe.
 
 Dr. Smith: Hello, Jane. It's nice to meet you over the phone. Before we proceed, could you please confirm your date of birth for our records?
 
-Jane Doe: Sure, it's [Insert Date of Birth].
+Jane Doe: Sure, it's 1990.
 
 Dr. Smith: Thank you, Jane. How are you feeling today?
 
