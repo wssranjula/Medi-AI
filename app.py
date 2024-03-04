@@ -67,7 +67,7 @@ def get_response(transcript):
                                             extract information in this {format}
                                             If the information is not available, please leave the field empty.Provide the final output in JSON format.
                                             """)
-    model = ChatOpenAI(amodel="gpt-3.5-turbo")
+    model = ChatOpenAI(api_key= OPENAI_API_KEY ,model="gpt-3.5-turbo")
 
     output_parser = StrOutputParser()
 
