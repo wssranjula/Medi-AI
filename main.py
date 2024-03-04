@@ -77,3 +77,6 @@ if uploaded_file is not None:
                 
                 # Form submission button (does nothing here as we're just displaying data)
                 st.form_submit_button("Update Information")
+                                # Button to reset the page
+                if st.button("Reset Page"):
+                    st.experimental_rerun()
