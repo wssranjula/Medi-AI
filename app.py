@@ -6,10 +6,13 @@ import os
 import streamlit as st
 import json
 from dotenv import load_dotenv
+from langchain_google_genai import ChatGoogleGenerativeAI
 load_dotenv()
 
 AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+# OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
+GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
 
 
 def get_response(transcript):
@@ -68,6 +71,14 @@ def get_response(transcript):
                                             If the information is not available, please leave the field empty.Provide the final output in JSON format.
                                             """)
     model = ChatOpenAI(api_key= OPENAI_API_KEY ,model="gpt-3.5-turbo")
+    # model  = ChatGoogleGenerativeAI(
+    #         model="gemini-2.5-pro-exp-03-25",
+    #         temperature=0,
+    #         max_tokens=None,
+    #         timeout=30,  # Set explicit timeout
+    #         max_retries=3,
+    #         api_key=GOOGLE_API_KEY
+    #     )
 
     output_parser = StrOutputParser()
 
